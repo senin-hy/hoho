@@ -1,0 +1,6 @@
+<import src="/components/m-input.vue.wxml" />
+<import src="/components/uni-nav-bar/uni-nav-bar.vue.wxml" />
+<import src="/components/m-icon/m-icon.vue.wxml" />
+<import src="/components/uni-status-bar/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/slots" />

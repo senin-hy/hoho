@@ -1,0 +1,21 @@
+<import src="/components/uni-nav-bar/uni-nav-bar.vue.wxml" />
+<template name="1c268ff5">
+  <view class="_view data-v-7e2eafa5 content">
+    <view class="_view data-v-7e2eafa5 topbar">
+      <template left-icon="back" left-text="返回" bindclick-left="handleProxy" right-text="菜单" title="导航栏组件" data-eventid="{{'mrJ-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0UV-0'],$root}}" is="fc2114fe"></template>
+    </view>
+    <image class="_image data-v-7e2eafa5 logo" src="../../static/logo.png"></image>
+    <view class="_view data-v-7e2eafa5">
+      <text class="_text data-v-7e2eafa5 title">{{title}}</text>
+    </view>
+    <navigator url="../data/data" hover-class="navigator-hover" class="_navigator data-v-7e2eafa5">
+      <button type="default" class="_button data-v-7e2eafa5">跳转到新页面</button>
+    </navigator>
+    <navigator url="../productList/productList" hover-class="navigator-hover" class="_navigator data-v-7e2eafa5">
+      <button type="default" class="_button data-v-7e2eafa5">列表页面</button>
+    </navigator>
+    <navigator url="../data/data" redirect hover-class="other-navigator-hover" class="_navigator data-v-7e2eafa5">
+      <button type="default" class="_button data-v-7e2eafa5">在当前页打开</button>
+    </navigator>
+  </view>
+</template>
