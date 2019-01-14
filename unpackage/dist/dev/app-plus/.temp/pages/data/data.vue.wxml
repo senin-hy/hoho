@@ -1,0 +1,8 @@
+<template name="85d0a2ee">
+  <view class="_view data-v-c8dd4b82">
+    <picker bindchange="handleProxy" value="{{index}}" range="{{array}}" data-eventid="{{'iOH-0'}}" data-comkey="{{$k}}" class="_picker data-v-c8dd4b82">
+      <view class="_view data-v-c8dd4b82 picker"> 当前选择：{{array[index]}} </view>
+    </picker>
+    <view bindtap="handleProxy" data-id="0" data-eventid="{{'ySH-1'}}" data-comkey="{{$k}}" class="_view data-v-c8dd4b82">{{id}}</view>
+  </view>
+</template>

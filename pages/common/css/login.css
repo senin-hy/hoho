@@ -1,0 +1,99 @@
+.login-warp .login-logo {
+  width: 200upx;
+  margin: 0 auto;
+  padding-top: 30upx;
+}
+
+.login-warp .login-logo image {
+  width: 200upx;
+  height: 200upx;
+}
+
+.login-warp .login-con {
+  margin: 100upx 50upx;
+}
+
+.login-warp .login-con .login-input {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 0 10upx;
+  border: 1px solid #e5e5e5;
+  border-radius: 10upx;
+  font-size: 28upx;
+  box-sizing: border-box;
+}
+
+.login-warp .login-con .login-input .m-input {
+  height: 74upx;
+  line-height: 74upx;
+  font-size: 28upx;
+  box-sizing: border-box;
+}
+
+.login-warp .login-con .code-input {
+  overflow: hidden;
+}
+
+.login-warp .login-con .code-input .m-input {
+  width: 50%;
+  float: left;
+}
+
+.login-warp .login-con .code-input .codeBtn {
+  display: flex;
+  float: right;
+  line-height: 72upx;
+  color: #2185CF;
+  margin: 0 20upx;
+}
+
+.login-warp .login-con .code-input .codeBtn.isActive {
+  color: #888888;
+}
+
+.login-warp .login-con .login-switch {
+  text-align: right;
+  margin-top: -15px;
+}
+
+.login-warp .login-con .login-switch .s-phoneLogin {
+  display: inline-block;
+  font-size: 24upx;
+  color: #2185CF;
+}
+
+.login-warp .login-con .login-btn {
+  margin-bottom: 20px;
+  padding-top: 40upx;
+}
+
+.login-warp .login-con .login-btn button {
+  height: 84rpx;
+  width: 100%;
+  line-height: 84rpx;
+  color: #ffffff;
+  font-size: 32rpx;
+  border-radius: 44rpx;
+  outline: 0;
+  display: block;
+  margin: 0;
+  font-family: inherit;
+  background: #2185CF;
+  opacity: 0.8;
+}
+
+.login-warp .login-con .login-btn button:after {
+  border: 2rpx solid #f2f2f2;
+}
+
+.login-warp .login-con .login-help {
+  text-align: center;
+  font-size: 32upx;
+  color: #999;
+}
+
+.login-warp .login-con .login-help .s-link {
+  display: inline-block;
+  padding: 0 10upx;
+  color: #2185CF;
+}
